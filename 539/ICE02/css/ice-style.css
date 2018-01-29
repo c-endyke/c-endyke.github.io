@@ -1,0 +1,65 @@
+.navhead {
+	background-color: yellow;
+	text-align: right;
+}
+
+nav {
+	margin: 0 auto;
+}
+
+nav ul li {
+	background-color: black;
+	display: inline;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+aside {
+	background-color: white;
+	float: right;
+	height: 450px;
+
+
+}
+
+#wrap{
+	background-color: green;
+	margin: -10px;
+
+}
+
+header h1{
+	background-color: yellow;
+	text-align: right;
+}
+
+#content {
+	background-color: grey;
+
+}
+
+#content li{
+	list-style-type: none;
+	text-align: center;
+
+}
+
+#content ul{
+	text-decoration: none;
+	text-ali: center;
+}
+
+.copyright {
+	padding-bottom: 20px;
+}
