@@ -207,9 +207,23 @@ footer p{
 
 
 @media only screen and (min-width: 650px) {
-	.top-nav ul li {
+	.top-nav {
+		text-align:center;
+	}
+	
+
+	.top-nav ul {
 		display: inline-block;
-		align: center;
+		border-top: 1px solid red;
+	}
+
+	.top-nav ul li {
+		display: inline;
+		border-top: none;
+	}
+
+	.top-nav ul li a{
+		display: inline-block;
 	}
 	.photo-grid {
 		display: grid;
@@ -225,10 +239,32 @@ footer p{
 }
 
 @media only screen and (min-width: 1000px) {
-	.top-nav ul li {
-		display: inline-block;
-		align: center;
+	.top-nav .logo {
+		float: left;
 	}
+
+	.top-nav ul {
+		display: inline-block;
+		float: right;
+		border-top: none;
+		
+
+	}
+
+	.top-nav ul li {
+		border-top: none;
+
+	}
+
+	.top-nav ul li a {
+		vertical-align: middle;
+	}
+
+	.main-content-home {
+		margin-top: 50px;
+	}
+
+
 	.photo-grid {
 		display: grid;
 		grid-template-columns: auto auto auto auto;
