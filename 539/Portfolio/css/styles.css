@@ -1,0 +1,82 @@
+/*-----MAIN-----*/
+html {
+  box-sizing: border-box;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----HEADER & NAVIGATION-----*/
+header{
+	font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 3px 3px 1px #dfdddd;
+    background-color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+    position: fixed;
+}
+/*mobile-first*/
+.top-nav {
+	margin-top: 0;
+}
+
+.top-nav p {
+	text-align: center;
+}
+.top-nav ul {
+	display: block;
+	list-style-type: none;
+	margin: 0 10;
+	padding: 0 auto;
+	text-align: center;
+
+}
+
+nav#top-nav.top-nav ul {
+	padding: 0;
+}
+
+.top-nav ul li {
+	font-size: 1em;
+	text-decoration: none;
+	padding: .5em 1em;
+	display: inline;
+}
+
+.top-nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	align: center;
+}
+
+/*-----INTRO AREA-----*/
+
+.hi {
+	display: block;
+	padding-top: 100px;
+}
+
+.hi img {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+/*mobile-first*/
+
+.hi img {
+	align: center;
+	width: 50%;
+
+}
+
+.hi h2 {
+	text-align: center;
+}
+
+.hi p {
+	text-align: center;
+	padding: 0px 20px;
+}
