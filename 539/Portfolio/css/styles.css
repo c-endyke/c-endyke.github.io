@@ -2,7 +2,7 @@
 html {
   box-sizing: border-box;
 }
-html, body{
+html, body, header, footer, h1, h2, h3, h4, h5, h6, p{
 	padding: 0;
 	margin: 0;
 }
@@ -21,13 +21,13 @@ header{
 	margin-top: 0;
 }
 
-.top-nav p {
+.top-nav h2 {
+	margin-top: .5em;
 	text-align: center;
 }
 .top-nav ul {
 	display: block;
 	list-style-type: none;
-	margin: 0 10;
 	padding: 0 auto;
 	text-align: center;
 
@@ -54,7 +54,8 @@ nav#top-nav.top-nav ul {
 
 .hi {
 	display: block;
-	padding-top: 100px;
+	padding-top: 7em;
+	font-family: sans-serif;
 }
 
 .hi img {
@@ -74,9 +75,11 @@ nav#top-nav.top-nav ul {
 
 .hi h2 {
 	text-align: center;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 .hi p {
 	text-align: center;
-	padding: 0px 20px;
+	padding: 0px 1em;
 }
