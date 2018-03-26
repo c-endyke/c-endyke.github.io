@@ -29,14 +29,14 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Waterfront Navigator</a>
+              <a class="dropdown-item" href="waterfront.html">Waterfront Navigator</a>
               <a class="dropdown-item" href="#">My.Future</a>
               <a class="dropdown-item" href="#">PARKslope</a>
               <a class="dropdown-item" href="#">Data Driven Detroit</a>
@@ -44,7 +44,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -62,24 +62,36 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <div class="container">
+      <div class='home-about-container'>  
+      <div class="row">
+
+        <div class='home-about-pic col-lg-4 col-md-6 col-sm-12'>
+
+        <img class='home-about-img img-fluid' src='images/caitlin.jpg' alt="caitlin endyke">
+
+        </div>
+
+        <div class="home-about-text col-lg-8 col-md-6 col-sm-12">
+
           <h1 class="display-3">Hi! I'm Caitlin.</h1>
           <p>Former Interactive Project Manager turned UX Researcher, I'm passionate about technology that makes a difference - both on the web, and in the real world. I like to live at the intersection of insatiable human curiousity, stellar design, and exciting product innovation. I'm an expert in unconvering customer behavior, tackling thorny UX questions, and integrating design, development, and stakeholder teams. </p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Let's get in touch! &raquo;</a></p>
+          <p><a class="btn btn-primary btn-lg" href="contact.html" role="button">Let's get in touch! &raquo;</a></p>
         </div>
+    </div>
       </div>
+  		</div>
 
 
 
       <div class="album py-5 bg-light">
         <div class="container">
 
-
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/waterfront.jpg" alt="Card image cap">
-                <div class='card-img-overlay'>
+              	<a href="waterfront.html">
+                <img class="card-img-top" src="images/waterfront.jpg" alt="Waterfront Navigator screenshot">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>One-stop resource for city residents to apply for permits to develop along NYC's 520 miles of coastline</div>
                 </div>
                 <div class="card-body">
@@ -89,11 +101,12 @@
                   </div>
                 </div>
               </div>
+          </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/myfuture.png" alt="Card image cap">
-                <div class='card-img-overlay'>
+                <img class="card-img-top" src="images/myfuture.png" alt="My.Future screenshot">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>Digital learning platform to house The Boys & Girls Clubs of America's activity-based curricula. Members create profiles, earn digital rewards, and track progress toward subject expertise.</div>
                 </div>
                 <div class="card-body">
@@ -104,10 +117,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/parkslope.png" alt="Card image cap">
-                <div class='card-img-overlay'>
+                <img class="card-img-top" src="images/parkslope.png" alt="PARKslope screenshot">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>PARKslope helps New Yorkers navigate Alternate Side Parking rules in Brooklyn neighborhoods. Personal Project. </div>
                 </div>
                 <div class="card-body">
@@ -119,10 +132,10 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/datadrivendetroit.png" alt="Card image cap">
-                <div class='card-img-overlay'>
+                <img class="card-img-top" src="images/datadrivendetroit.png" alt="Data Driven Detroit screenshot">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>A new collaborative database tool from D3 will facilitate partner organizations to share data, discuss insights, and develop and implement strategies to improve data accessibility and literacy.</div>
                 </div>
                 <div class="card-body">
@@ -133,10 +146,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/lmcc.png " alt="Card image cap">
-                <div class='card-img-overlay'>
+                <img class="card-img-top" src="images/lmcc.png " alt="Let's Move! Child Care screenshot">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>Giving child care and early education providers the tools to help children develop healthy habits for life. Part of First Lady Michelle Obama's Let's Move! Campaign.</div>
                 </div>
                 <div class="card-body">
@@ -146,12 +159,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
+            </div> 
+            <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/waterfront.jpg" alt="Card image cap">
-                <div class='card-img-overlay'>
+                <img class="card-img-top" src="images/waterfront.jpg" alt="Waterfront Navigator screenshot">
+                <a href="waterfront.html">
+                <div class='card-image-overlay'>
                 	<div class='overlay-text'>One-stop resource for city residents to apply for permits to develop along NYC's 520 miles of coastline</div>
+
                 </div>
                 <div class="card-body">
                   <p class="card-text-head">Waterfront Navigator</p>
