@@ -1,32 +1,23 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Contact Form</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Fonts CHANGE THESE-->
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
-<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
-<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-
-
-
   </head>
-    <body class='form-body'>
-
-     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <body class='form-body'>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Caitlin Endyke</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -56,102 +47,77 @@
         </form> -->
       </div>
     </nav>
-
-        <div class="form-container box-shadow">
-
-            <div class="row">
-
-                <div class="col-lg-8 col-lg-offset-2">
-
-                    <h1>Let's get acquainted!</h1>
-
-<form id="contact-form" method="POST" action="https://www.getform.org/f/bc3ca7ed-c7aa-4c3c-8e0d-9ee3ac01e2ba" role="form">
-
-    <div class="messages"></div>
-
-    <div class="controls">
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
+    <div class="form-container box-shadow">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1>Let's get acquainted!</h1>
+          <form id="contact-form" method="POST" action="https://www.getform.org/f/bc3ca7ed-c7aa-4c3c-8e0d-9ee3ac01e2ba" role="form">
+            <div class="messages"></div>
+            <div class="controls">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
                     <label for="form_name">First name *</label>
                     <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
                     <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
+                <div class="col-md-6">
+                  <div class="form-group">
                     <label for="form_lastname">Last name *</label>
                     <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
                     <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
                     <label for="form_email">Email *</label>
                     <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
                     <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
+                <div class="col-md-6">
+                  <div class="form-group">
                     <label for="form_phone">Phone</label>
-                    <input id="form_phone" type="tel" name="phone" class="form-control" 
+                    <input id="form_phone" type="tel" name="phone" class="form-control">
                     <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
                     <label for="form_message">Message *</label>
                     <textarea id="form_message" name="message" class="form-control" placeholder="Tell me something interesting" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                     <div class="help-block with-errors"></div>
+                  </div>
                 </div>
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="required"><strong>*</strong> These fields are required.</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
+          </form>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="required"><strong>*</strong> These fields are required.</p>
-            </div>
-        </div>
+      </div>
     </div>
-
-</form>
-
- </div>
-
-            </div>
-
-        </div>
-
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="validator.js"></script>
-        <script src="contact.js"></script>
-    </body>
-</html>
-
-<footer class="container">
+    <footer class="container">
       <p>&copy; Caitlin Endyke  2018</p>
-  </footer>
-
-    </main>
-
-   
-
-
-
-
-
-
-<!--Javascript-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body> 
+    </footer>
+  
+  <!--Javascript-->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="validator.js"></script>
+  <script src="contact.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
