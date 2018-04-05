@@ -1,5 +1,11 @@
 a:focus, li.nav-item a.nav-link:focus {
   color: #009688 !important;
+  border: 1px solid #009688;
+}
+
+h2 {
+  font-weight: 300;
+  color: #009688;
 }
 
 /*---NAV BAR---*/
@@ -51,6 +57,14 @@ background-color: white !important;
 
 /*---HOME---*/
 
+.short {
+  padding-bottom: 1.25rem;
+}
+
+.row-two {
+  margin-top: 2rem;
+}
+
 .card-text-head {
  color:#009688;
  font-size: 1rem;
@@ -63,6 +77,10 @@ background-color: white !important;
 
 }
 
+#home-about {
+  display:hidden;
+}
+
 .home-about-container {
 padding-top: 3rem;
 padding-right: 1rem;
@@ -70,9 +88,11 @@ padding-left: 1rem;
 }
 .home-about-text {
 padding-top: 2rem;
+
 }
 .home-about-pic {
 border-radius: 50%;
+
 /*  padding-top: 4rem;*/
 /*  padding-top: 5rem;*/
 }
@@ -88,6 +108,8 @@ text-align: center;
 background-color: #f5f5f5;
 color: #009688;
 }
+
+
 .projects-title h2 {
 font-size: 2.8125rem;
 font-weight: 300;
@@ -258,13 +280,19 @@ border-radius: 50%;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
-.waterfront-background h2 {
+#waterfront-title {
   color: white;
   font-weight: 500;
   font-size: 3.5rem;
   text-align: center;
   margin-top: 7rem;
+  display: hidden;
 }
+
+.waterfront-main h2 {
+  padding-top: .5rem;
+}
+
 
 .waterfront-main {
   margin: 0 1rem;
@@ -288,14 +316,35 @@ footer {
 footer p {
   color: white;
   text-align:center;
+  margin-bottom: 0;
+  display: inline-block;
+  padding-right: 1rem;
 }
 
-footer.container {
+/*footer.container {
+  background-color: #009688 !important;
+}*/
+
+footer {
   background-color: #009688 !important;
 }
 
+.fa {
+  color: white;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: .25rem;
 
+}
 
+.fa:hover {
+  color: #BBBBBB;
+}
+
+.fa.fa-linkedin:focus {
+  color: #BBBBBB !important;
+}
 
 /*---MEDIA QUERIES---*/
 

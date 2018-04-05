@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Fonts CHANGE THESE-->
-    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
- f    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body >
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -21,10 +28,10 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html" tabindex="0">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html" tabindex="1">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#projects" tabindex="2">Projects</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#projects" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
@@ -37,10 +44,10 @@
             </div>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" tabindex="3">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html" tabindex="4">Contact</a>
           </li>
           
         </ul>
@@ -55,14 +62,14 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class='home-about-container'>
-          <div class="row">
+          <div class="row" id="home-about">
             <div class='home-about-pic col-lg-4 col-md-6 col-sm-12'>
               <img class='home-about-img img-fluid' src='images/caitlin.jpg' alt="caitlin endyke">
             </div>
             <div class="home-about-text col-lg-8 col-md-6 col-sm-12">
               <h1 class="display-3">Hi! I'm Caitlin.</h1>
               <p>Former Interactive Project Manager turned UX Researcher, I'm passionate about technology that makes a difference - both on the web, and in the real world. I like to live at the intersection of insatiable human curiousity, stellar design, and exciting product innovation. I'm an expert in unconvering customer behavior, tackling thorny UX questions, and integrating design, development, and stakeholder teams. </p>
-              <p><a class="btn btn-primary btn-lg" href="contact.html" role="button">Let's get in touch! &raquo;</a></p>
+              <p><a class="btn btn-primary btn-lg" href="contact.html" role="button" tabindex="5">Let's get in touch! &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -76,18 +83,18 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow card-margin">
-                <a href="waterfront.html">
+                <a href="waterfront.html" tabindex="6">
                   <div class='card-image-overlay'>
                     <div class='overlay-text'>One-stop resource for city residents to apply for permits to develop along NYC's 520 miles of coastline</div>
                   </div>
                 </a>
-                <img class="card-img-top" src="images/waterfront.jpg" alt="Waterfront Navigator screenshot">
+                <img class="card-img-top" src="images/waterfront.png" alt="Waterfront Navigator screenshot">
                 
               </div>
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
                   <p class="card-text-head">Waterfront Navigator</p>
-                  <p class="card-text-sub">Project Management / User Research</p>
+                  <p class="card-text-sub short">Project Management / User Research</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -95,7 +102,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow card-margin">
-                <a href="myfuture.html">
+                <a href="myfuture.html" tabindex="7">
                   <div class='card-image-overlay'>
                     <div class='overlay-text'>Digital learning platform to house The Boys & Girls Clubs of America's activity-based curricula. Members create profiles, earn digital rewards, and track progress toward subject expertise.</div>
                   </div>
@@ -106,7 +113,7 @@
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
                   <p class="card-text-head">My.Future</p>
-                  <p class="card-text-sub">Project Management / User Research</p>
+                  <p class="card-text-sub short">Project Management / User Research</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -114,7 +121,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 box-shadow card-margin">
-                <a href="parkslope.html">
+                <a href="parkslope.html" tabindex="8">
                   <div class='card-image-overlay'>
                     <div class='overlay-text'>PARKslope helps New Yorkers navigate Alternate Side Parking rules in Brooklyn neighborhoods.<br>Personal Project.</div>
                   </div>
@@ -125,15 +132,15 @@
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
                   <p class="card-text-head">PARKslope</p>
-                  <p class="card-text-sub">UX/UI Design / Prototyping</p>
+                  <p class="card-text-sub short">UX/UI Design / Prototyping</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <div class="card mb-4 box-shadow card-margin">
-                <a href="detroit.html">
+              <div class="card mb-4 box-shadow card-margin row-two">
+                <a href="detroit.html" tabindex="9">
                   <div class='card-image-overlay'>
                     <div class='overlay-text'>A new collaborative database tool from D3 will facilitate partner organizations to share data, discuss insights, and develop and implement strategies to improve data accessibility and literacy.</div>
                   </div>
@@ -144,15 +151,15 @@
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
                   <p class="card-text-head">Data Driven Detroit</p>
-                  <p class="card-text-sub">Contextual Inquiry</p>
+                  <p class="card-text-sub short">Contextual Inquiry</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <div class="card mb-4 box-shadow card-margin">
-                <a href="lmcc.html">
+              <div class="card mb-4 box-shadow card-margin row-two">
+                <a href="lmcc.html" tabindex="10">
                   <div class='card-image-overlay'>
                     <div class='overlay-text'>Giving child care and early education providers the tools to help children develop healthy habits for life. Part of First Lady Michelle Obama's Let's Move! Campaign.</div>
                   </div>
@@ -163,26 +170,26 @@
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
                   <p class="card-text-head">Let's Move! Child Care</p>
-                  <p class="card-text-sub">Project Management / User Research / Information Architecture</p>
+                  <p class="card-text-sub" >Project Management / User Research / Information Architecture</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <div class="card mb-4 box-shadow card-margin">
-                <a href="waterfront.html">
+              <div class="card mb-4 box-shadow card-margin row-two">
+                <a href="scholastic.html" tabindex="11">
                   <div class='card-image-overlay'>
-                    <div class='overlay-text'>One-stop resource for city residents to apply for permits to develop along NYC's 520 miles of coastline</div>
+                    <div class='overlay-text'>Online resource for teachers and administrators to manage Scholastic's Leveled Bookroom product</div>
                   </div>
                 </a>
-                <img class="card-img-top" src="images/waterfront.jpg" alt="Waterfront Navigator screenshot">
+                <img class="card-img-top" src="images/scholastic.jpg" alt="Scholastic screenshot">
                 
               </div>
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
-                  <p class="card-text-head">Waterfront Navigator</p>
-                  <p class="card-text-sub">Project Management / User Research</p>
+                  <p class="card-text-head">Scholastic, Inc.</p>
+                  <p class="card-text-sub short">Project Management / User Research</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -194,13 +201,22 @@
           </div>
         </div>
 
-<footer class="container">
-  <p>&copy; Caitlin Endyke  2018</p>
+<footer class="footer">
+  <div class="container text-center">
+    <p>&copy; Caitlin Endyke  2018</p>
+    <a href="https://www.linkedin.com/in/caitlin-endyke-37426a59/" target='_blank' tabindex='12'><i class="fa fa-linkedin" title="LinkedIn"></i></a>
+    
+  </div>
 </footer>
+
+
+<!-- <footer class="container">
+  <p>&copy; Caitlin Endyke  2018</p>
+</footer> -->
 <!--     </main> -->
 
 <!--Javascript-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
