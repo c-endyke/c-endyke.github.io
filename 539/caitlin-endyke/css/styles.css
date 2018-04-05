@@ -164,19 +164,9 @@ text-align: center;
 width: 75%;
 }
 
-footer {
-padding-top: 3rem;
-padding-bottom: 3rem;
-background-color: white;
-}
-footer.container {
-background-color: white;
-max-width: 100%;
-max-height: 10%;
-}
-footer p {
-margin-bottom: .25rem;
-}
+
+
+
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 
@@ -236,7 +226,9 @@ color:#009688 ;
 
 /*---ABOUT---*/
 .about-container {
-padding: 2rem;
+padding: 1rem;
+background-color:white;
+margin: 0 1rem 1rem 1rem;
 }
 .about-text {
 padding-top: 2rem;
@@ -251,7 +243,56 @@ border-radius: 50%;
 }
 
 
+/*---WATERFRONT NAVIGATOR---*/
 
+
+.waterfront-background {
+  background-image: url("../images/waterfront-background.png");
+  margin-top: 3.5rem;
+  width: 100%;
+  height: 45vh;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.waterfront-background h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.waterfront-main {
+  margin: 0 1rem;
+  padding: 1rem .5rem;
+  background-color:#f5f5f5;
+}
+
+
+/*---FOOTER---*/
+
+footer.container {
+max-width: 100%;
+max-height: 10%;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer p {
+  color: white;
+  text-align:center;
+}
+
+footer.container {
+  background-color: #009688 !important;
+}
 
 
 
@@ -298,11 +339,18 @@ margin-left: 3rem;
   margin-bottom: -18px;
 }
 .about-container {
-padding: 4rem;
+padding: 1rem;
+background-color:white;
+margin: 0 4rem 2rem 4rem;
 }
 .about-text {
 padding-top: 5rem;
 }
+.about-img {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
 .home-about-container {
 padding-right: 2rem;
 padding-left: 2rem;
@@ -345,6 +393,16 @@ form h1 {
   margin-right: 2rem;
   padding: 2rem;*/
 }
+
+
+.waterfront-main {
+  margin: 0 10rem;
+  padding: 3rem;
+  background-color:white
+  ;
+}
+
+
 }
 
 @media screen and (min-width: 1040px) {
@@ -353,13 +411,14 @@ margin-left: 3rem;
 }
 
 
-
+.about-img {
+  max-width: 100%;
+  margin-left: 0;
+}
 
 
 .about-container {
-padding-top: 3rem;
-padding-right: 10rem;
-padding-left: 10rem;
+padding: 3rem 8rem;
 }
 .about-text {
 padding-top: 6rem;
