@@ -30,6 +30,11 @@ padding-bottom: 0;
 line-height: .5;
 margin: .5rem 0;
 }
+
+.projects-active:active {
+  border-left: 2px solid #009688
+}
+
 .navbar-dark .navbar-nav .nav-link {
 color: #767676 !important;
 }
@@ -356,7 +361,12 @@ footer {
   color: #BBBBBB;
 }
 
-.fa.fa-linkedin:focus {
+
+.linkedin:focus {
+  border: 2px dotted white;
+}
+
+i.fa:focus {
   color: #BBBBBB !important;
 }
 
