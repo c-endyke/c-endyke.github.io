@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
   <head>
     <title>539 Final Exam</title>
 
     <link rel='stylesheet' href='css/styles.css'>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.hide').click( function() {
+        $('#colleen').hide();
+      })
+      $('.show').click( function() {
+        $('#colleen').show();
+      })
+    }); 
+    </script>
   
   </head>
 
   <body>
 
+    <div class='grid'>
+
     <h1>Caitlin Endyke</h1>
 
-    <img src='images/examPic.JPG' alt='Colleen & Dinos'>
-    <img src='images/UMSI-logo.jpg' alt='UMSI logo'>
+    <img src='images/examPic.JPG' id='colleen' alt='Colleen & Dinos'>
+    <img src='images/UMSI-logo.jpg' id='umsi' alt='UMSI logo'>
+
+  </div>
+
+   <button type="button" class='hide'>Hide Image</button>
+<button type="button" class='show'>Show Image</button>
 
 
 
