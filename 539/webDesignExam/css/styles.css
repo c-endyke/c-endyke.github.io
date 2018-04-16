@@ -4,20 +4,28 @@
 }
 
 h1 {
-	display: block;
+	width: 100%;
 }
 
 body {
 	background-image: url('../images/sun-pattern.png');
-}
-
-img {
-	border: 5px solid blue;
-	padding: 5%;
-	width: 50%;
 	margin: 0;
 }
 
-.grid {
-	display: flex;
-	}
+
+img {
+	border: 5px solid blue;
+	margin: 0 auto;
+	padding: 5%;
+	width: 50%;
+	float:left;
+}
+
+
+
+.btns {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 500px;
+	clear:both;
+}
