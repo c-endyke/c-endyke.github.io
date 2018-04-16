@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+
+}
+
+h1 {
+	display: block;
+}
+
+body {
+	background-image: url('../images/sun-pattern.png');
+}
+
+img {
+	border: 5px solid blue;
+	padding: 5%;
+	width: 50%;
+	margin: 0;
+}
+
+.grid {
+	display: flex;
+	}
